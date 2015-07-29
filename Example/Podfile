@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftSiriWaveformView_Example', :exclusive => true do
+  pod "SwiftSiriWaveformView", :path => "../"
+end
+
+target 'SwiftSiriWaveformView_Tests', :exclusive => true do
+  pod "SwiftSiriWaveformView", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
