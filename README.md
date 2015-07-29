@@ -5,13 +5,30 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
 
-## Usage
+## Description
+SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7+. 
+
+It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).
+
+![Sample](http://imgur.com/e1KoYRY)
+
+## Usage 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+To use within your project, simply assign the *SCSiriWaveformView* class to a UIView, optionally play with the properties such as wave color, frequency, number of waves, etc, all which are settable from within the Interface Builder itself and you're all set! You can then use the *amplitude* property to interact with the waveform. For example if you had:
 
-## Installation
+```swift
+@IBOutlet weak var audioView: SwiftSiriWaveformView!
+```
+
+you could use
+
+```swift
+audioView.amplitude = 1.0
+```
+
+## Installation (CocoaPods)
 
 SwiftSiriWaveformView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -19,6 +36,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SwiftSiriWaveformView"
 ```
+
+## Installation (Manual)
+Copy Pod/Classes/SwiftSiriWaveFormView.swift into your project.
+
 
 ## Author
 

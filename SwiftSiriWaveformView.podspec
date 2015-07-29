@@ -10,19 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSiriWaveformView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftSiriWaveformView."
+  s.summary          = "UIView subclass that reproduces the waveform effect seen in Siri on iOS 7+"
   s.description      = <<-DESC
-                       An optional longer description of SwiftSiriWaveformView
+                       SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7+. 
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       It is an interface-incompatible Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu). 
+
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftSiriWaveformView"
+  s.homepage         = "https://github.com/alankarmisra/SwiftSiriWaveformView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Alankar Misra" => "alankarmisra@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftSiriWaveformView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/alankarmisra/SwiftSiriWaveformView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/alankarmisra_'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
