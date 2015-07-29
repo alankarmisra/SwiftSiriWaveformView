@@ -10,7 +10,7 @@ SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect s
 
 It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).
 
-![Sample](http://imgur.com/e1KoYRY)
+![Sample](http://i.imgur.com/e1KoYRY.gifv)
 
 ## Usage 
 
