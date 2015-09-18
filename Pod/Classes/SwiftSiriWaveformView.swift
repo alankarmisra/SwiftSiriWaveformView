@@ -62,7 +62,7 @@ public class SwiftSiriWaveformView : UIView {
     
     
     /*
-    * The current amplitude.
+    * The current amplitude. 
     */
     @IBInspectable public var amplitude:CGFloat = 1.0 {
         didSet {
@@ -73,7 +73,7 @@ public class SwiftSiriWaveformView : UIView {
     
     private var phase:CGFloat = 0.0
     
-    public required init?(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -114,7 +114,7 @@ public class SwiftSiriWaveformView : UIView {
             let normedAmplitude = (1.5 * progress - 0.8) * self.amplitude
             let multiplier = min(1.0, (progress/3.0*2.0) + (1.0/3.0))
             self.waveColor.colorWithAlphaComponent(multiplier * CGColorGetAlpha(self.waveColor.CGColor)).set()
-            drawWave(i, maxAmplitude: maxAmplitude, normedAmplitude: normedAmplitude)
+            drawWave(i, maxAmplitude, normedAmplitude)
         }
         self.phase += self.phaseShift
     }
