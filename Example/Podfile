@@ -8,5 +8,5 @@ end
 target 'SwiftSiriWaveformView_Tests', :exclusive => true do
   pod "SwiftSiriWaveformView", :path => "../"
 
-  pod 'FBSnapshotTestCase'
+  
 end

@@ -7,416 +7,320 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A14112E0323D66D8B443BB02CC14C2 /* Pods-SwiftSiriWaveformView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D0CEDED2553BC303B2514F535A9BD /* Pods-SwiftSiriWaveformView_Tests-dummy.m */; };
-		22D5921C47A91D75BF5AD98FBF83E100 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B04A8554C8D8758C6A41BC12AEC4D3 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EFAA470618D3AB8731E41BBDC0A0FB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF2A29097FDAE600C78FC8284EEAAAB /* XCTest.framework */; };
-		34238081A490A86E956270588F481D8A /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CDCB2C278D65C4D060E283646AF9F3 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D8457B98FF0E6618D2322D0AF41F3E3 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45AE6B2B51210D0A4A20D9AC84309BD /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E05374294A0424213A2160F6AFFF16F /* Pods-SwiftSiriWaveformView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EABD4EDDE788A07B094254416D6463 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FCB1130B171B541746FF2B0CBB3ACE2 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD26C2184DC027CC5FB7B714290985E /* FBSnapshotTestCasePlatform.m */; };
-		4E29F79BFBDF38320CE7AFB618C7B31B /* Pods-SwiftSiriWaveformView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFB18FB62D3F60BBF5C3690CFDA78F /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C37F9BD1E3BDA1194DE5A59C211BC5B /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F99E3FAD407057D5C572987C95F6B /* SwiftSupport.swift */; };
-		75F67E1363775CAA1EE2B8765F594C7A /* SwiftSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921D859783CD972071D080A9B0DE5C6 /* SwiftSiriWaveformView-dummy.m */; };
-		7B7DA75B0B3E042208314CF40693E1F3 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B843A973859D64D126F17C59350051B /* UIImage+Snapshot.m */; };
-		813CB68A0F489F875700AC8964FE3AD1 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1E97AAE8355AB76D4EB26B15212ABA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		915FE3FADEF4A0DA14CE0EDA2A68D1E2 /* SwiftSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C44A8C8BAF1B7DCE109A624CD3A4D11 /* SwiftSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		931825D847AC2FC6478154D977A58764 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C5C817C7FB9A8C29BE7772504C9B81 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9764AA29142FC01A45FD0D0E9A29DF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */; };
-		9D5269D846E37C5DED98A3733D1CE1FF /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367075E0B900694D91C5B2AFCEF64FFF /* FBSnapshotTestController.m */; };
-		AC00F2A29741854490CB72F87B815D2C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D7A65D5BB6BCDF6B733A0450BF4DC4 /* UIImage+Compare.m */; };
-		AD5F3CB09E4A4ED0761306AE3147E1CA /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = C0807DD396CF3A8938346533DA240146 /* UIImage+Diff.m */; };
-		B6367501EBF456E54BB66EA951BAAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */; };
-		B673CCCC714B32EFE2A6488DBE5516A5 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB98352340994214C60C6C4E89BA957 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B68D98C624AED20839532374CA60FE87 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 023438422B320F559BF6BA4CC2132FE5 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D235E5DE154E20C36F79C843B66D9BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */; };
-		D7FF50AB49A064D88F729CDA48649FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */; };
-		E16E7BF120F62193D0CC43DA97B2FC0A /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1072129D1CAC38505ED2DE7E74463B0 /* FBSnapshotTestCase-dummy.m */; };
-		E4C818CBB609A8055AEDF33094E8BA97 /* Pods-SwiftSiriWaveformView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD72CE9591E23F6F5062F966B4432B8 /* Pods-SwiftSiriWaveformView_Example-dummy.m */; };
-		F0DCD35DFF84EF53C204AF11EE81D1A3 /* SwiftSiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D3BA85A00206B3770295ED066434 /* SwiftSiriWaveformView.swift */; };
-		F141D846FC937A56E10B69E981470825 /* SwiftSiriWaveformView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B01D83E139AB203395824059968BD6DA /* SwiftSiriWaveformView.bundle */; };
-		F2BD10911C3DAD403CA9DBA753B3DF69 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB144E7C528B90B9A9265D045E700D0 /* FBSnapshotTestCase.m */; };
+		1ACA93BDC21843041E301C12752E2C54 /* Pods-SwiftSiriWaveformView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE215E5242800DF35C30C6C44C045259 /* Pods-SwiftSiriWaveformView_Tests-dummy.m */; };
+		1D34E7E122BBE21C469D3DAF46897D6F /* Pods-SwiftSiriWaveformView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB21F0806102F8BA9B32087262BF65A /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21168BE9FEDF036D6407634D29938805 /* SwiftSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7656D7D47BB50815BF885AAB02F515D1 /* SwiftSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3710D7BCA1388DE6927FE106C34A5F46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B783BA73C5295AEC3FB3B382F6C44CE8 /* Foundation.framework */; };
+		42B10F16681178A03456F7F9B8FD9FDA /* SwiftSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA43E216372BF4B5729D5E285F76A /* SwiftSiriWaveformView-dummy.m */; };
+		43DC09872525C0EFA4FC87A86650CF67 /* Pods-SwiftSiriWaveformView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BF27E29BCC00B5FDA7D7CFDBFC3327 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EAC6A06C9163C904382D3B8B8D5CD4 /* Pods-SwiftSiriWaveformView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6453D61ED85C149E49282E25FFCF0608 /* Pods-SwiftSiriWaveformView_Example-dummy.m */; };
+		B30E35B6B03A4239C3CA15BEE16AE644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B783BA73C5295AEC3FB3B382F6C44CE8 /* Foundation.framework */; };
+		B522F8CB4C0866599862FBA073245015 /* SwiftSiriWaveformView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 245A6921683E1D5065C7D57EFA32D6EE /* SwiftSiriWaveformView.bundle */; };
+		C158C61C761BCD3EC837F2300BA3C061 /* SwiftSiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F6D6E4272AC0DAE4E29FC16B24433 /* SwiftSiriWaveformView.swift */; };
+		C3D029A6A8E4DC50EABCEC381EFACCE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B783BA73C5295AEC3FB3B382F6C44CE8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		054D3D0A1F975603089BC28D50635271 /* PBXContainerItemProxy */ = {
+		0DD0EA56214B340A9C875F49D6F6B792 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D74163E98788CF9361159F986A94E81C;
+			remoteGlobalIDString = F3D0006B153713D03938105FFF0E0AAC;
 			remoteInfo = SwiftSiriWaveformView;
 		};
-		6DE00BD0B8DB29747B8D026D957F1D5F /* PBXContainerItemProxy */ = {
+		33D2F310264F0B17C59F24234DF88253 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83CA2367B9B8B2768D7023FC92162A9F;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		8E45C883CE857A5C49393AD2C91FA5D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D74163E98788CF9361159F986A94E81C;
+			remoteGlobalIDString = F3D0006B153713D03938105FFF0E0AAC;
 			remoteInfo = SwiftSiriWaveformView;
 		};
-		BB8AA08A9E0A636BD51F95704BF2B49B /* PBXContainerItemProxy */ = {
+		AC0E8F3BFF1DE9E3223FE73D4269438D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 31FD0A5E8CA130FA34DA34E480AE5592;
+			remoteGlobalIDString = D97B88BB3045C24C56813A9976DAC2A1;
 			remoteInfo = "SwiftSiriWaveformView-SwiftSiriWaveformView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023438422B320F559BF6BA4CC2132FE5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		0538D3BA85A00206B3770295ED066434 /* SwiftSiriWaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftSiriWaveformView.swift; sourceTree = "<group>"; };
-		0921D859783CD972071D080A9B0DE5C6 /* SwiftSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
-		0B843A973859D64D126F17C59350051B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		0CDD6338287454303285F192E7C7708B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10EABD4EDDE788A07B094254416D6463 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSiriWaveformView_Example-umbrella.h"; sourceTree = "<group>"; };
-		217EE35D54FF89308CFCD2C981F686E9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		2B1225F947E2C4809C79FAC7C14E1D75 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		367075E0B900694D91C5B2AFCEF64FFF /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		3759AD00A7142D0D75593C0C01A042E8 /* SwiftSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A0D7C968BFA7756510D103F601E9836 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A832EE05AE2127F891BAC71136A8E55 /* Pods-SwiftSiriWaveformView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSiriWaveformView_Example.modulemap"; sourceTree = "<group>"; };
-		3B744733D120DC2EFED9F5AF3D42BFE1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		499D0CEDED2553BC303B2514F535A9BD /* Pods-SwiftSiriWaveformView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSiriWaveformView_Tests-dummy.m"; sourceTree = "<group>"; };
-		4E64BC2B08CD49D599C7C69040348402 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE16019CEBA4F51350BBB677406F1E8 /* SwiftSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSiriWaveformView.xcconfig; sourceTree = "<group>"; };
-		5782CC0E30ED9166B149D1898BB4F64F /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5CD26C2184DC027CC5FB7B714290985E /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6A0F99E3FAD407057D5C572987C95F6B /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		712ED622DB48D45C3E014BAFCEE6DCC4 /* Pods_SwiftSiriWaveformView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSiriWaveformView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73B04A8554C8D8758C6A41BC12AEC4D3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		7AB144E7C528B90B9A9265D045E700D0 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		7F9E422D66F1C4FE5EFBE68D23C07F7D /* Pods-SwiftSiriWaveformView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		893898DF9703A8713376D8D549C969F5 /* Pods-SwiftSiriWaveformView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSiriWaveformView_Tests.modulemap"; sourceTree = "<group>"; };
-		8A1A9A19B449F145CA2919816AD4B989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D99E3806AED4D889B67199EA327307A /* SwiftSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftSiriWaveformView.modulemap; sourceTree = "<group>"; };
-		90D7A65D5BB6BCDF6B733A0450BF4DC4 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		938F81E64FB1C5BC61994D4BB348C178 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		947DA2E8A1B9BEE160EBA37F58DA3566 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		95851394E99813E960F1F4C089A4F6FF /* Pods-SwiftSiriWaveformView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Example-resources.sh"; sourceTree = "<group>"; };
-		95A97D4C2F2B1B7E9E754271296FD870 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSiriWaveformView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		98BBC64642E8E41D6571EDADDAD78800 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9C44A8C8BAF1B7DCE109A624CD3A4D11 /* SwiftSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
-		9D9A96E1BDEE09FCB311D3E390FC7E5B /* Pods-SwiftSiriWaveformView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Tests-resources.sh"; sourceTree = "<group>"; };
-		AE1E97AAE8355AB76D4EB26B15212ABA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		AEF2A29097FDAE600C78FC8284EEAAAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B01D83E139AB203395824059968BD6DA /* SwiftSiriWaveformView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSiriWaveformView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B182787C7F1F8DF4F7CAD151CD781979 /* Pods-SwiftSiriWaveformView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B6CDCB2C278D65C4D060E283646AF9F3 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		BD4BD2196573A4B8EBC2F316936A8FE8 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BFBF3E12D70A6CE4F9CD3D9C20D2ACF9 /* Pods_SwiftSiriWaveformView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSiriWaveformView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0807DD396CF3A8938346533DA240146 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C45AE6B2B51210D0A4A20D9AC84309BD /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		C5FFB18FB62D3F60BBF5C3690CFDA78F /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSiriWaveformView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8C5C817C7FB9A8C29BE7772504C9B81 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		C9D358A63F033E9471B6CEF869D2530F /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		CBD72CE9591E23F6F5062F966B4432B8 /* Pods-SwiftSiriWaveformView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSiriWaveformView_Example-dummy.m"; sourceTree = "<group>"; };
-		CEB98352340994214C60C6C4E89BA957 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		D1072129D1CAC38505ED2DE7E74463B0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		DCACCE2906E22ACE4AD1A2A161FD5C54 /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDB5C23EB528AABD0B78E95FFF7D29ED /* SwiftSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
-		E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftSiriWaveformView-Private.xcconfig"; sourceTree = "<group>"; };
-		E14500CA89523F8F18E9F7334B64572C /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE8FCBD49DBC8E07A7EE526553903378 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		037EA2D39E6B5CD2F9C3760EE28ADFFD /* SwiftSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftSiriWaveformView.modulemap; sourceTree = "<group>"; };
+		03E54265A1C5283A8A9833A1C54759D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044AAE69315237B925C103DE02483F5F /* Pods-SwiftSiriWaveformView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSiriWaveformView_Example.modulemap"; sourceTree = "<group>"; };
+		076D70B6439D2322D39AFC561E836416 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13B13453305C61255958B2C5385C0887 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1441D98D2B6F93AC2C370F4DE99AD22B /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		156C9933CD29CE37DD854644582548D2 /* SwiftSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D139141752134DA806FAE010F39D5 /* Pods-SwiftSiriWaveformView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSiriWaveformView_Tests.modulemap"; sourceTree = "<group>"; };
+		245A6921683E1D5065C7D57EFA32D6EE /* SwiftSiriWaveformView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSiriWaveformView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D7628580C368A30E8FFD4B9CD13D9 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3FB21F0806102F8BA9B32087262BF65A /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSiriWaveformView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D2F1848566328977F848E005519363D /* Pods-SwiftSiriWaveformView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Tests-resources.sh"; sourceTree = "<group>"; };
+		6453D61ED85C149E49282E25FFCF0608 /* Pods-SwiftSiriWaveformView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSiriWaveformView_Example-dummy.m"; sourceTree = "<group>"; };
+		72BF27E29BCC00B5FDA7D7CFDBFC3327 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSiriWaveformView_Example-umbrella.h"; sourceTree = "<group>"; };
+		7550E25D691ACFA016FC286CA8AD0DA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7656D7D47BB50815BF885AAB02F515D1 /* SwiftSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
+		76851BAE0D445A48F9BFE5331E8F8D81 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E315C5D4E238F686E4EB157A765B09D /* SwiftSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSiriWaveformView.xcconfig; sourceTree = "<group>"; };
+		85BDA43E216372BF4B5729D5E285F76A /* SwiftSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		8B4F6D6E4272AC0DAE4E29FC16B24433 /* SwiftSiriWaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftSiriWaveformView.swift; sourceTree = "<group>"; };
+		96C91651402A44DE9161C14DEFA909BF /* Pods-SwiftSiriWaveformView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Example-resources.sh"; sourceTree = "<group>"; };
+		9FCB7C74847A72DD3D339552AA5EAE99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1065A72A97D05DACB090B2D7426421E /* SwiftSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		B0DD94F7A591AD9D9E7C1BA2297B5351 /* Pods-SwiftSiriWaveformView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B0F3F4A02878AEC39A30FD97F2C7DC7A /* Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B59D51D7A496A596DEF7A471D66B51C8 /* Pods_SwiftSiriWaveformView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSiriWaveformView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B44584167845D519F213F28BA72068 /* Pods_SwiftSiriWaveformView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSiriWaveformView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B783BA73C5295AEC3FB3B382F6C44CE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B988DA27BD35D7BD35FFE35A46490246 /* Pods-SwiftSiriWaveformView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSiriWaveformView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftSiriWaveformView-Private.xcconfig"; sourceTree = "<group>"; };
+		C796C0AC1C4CCA36604A8CB57D88ED06 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSiriWaveformView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0B93B33ED5BEDA1019C2AE2B1896BAB /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSiriWaveformView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE215E5242800DF35C30C6C44C045259 /* Pods-SwiftSiriWaveformView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSiriWaveformView_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91282C4B1DA2B2B02ACC20ABAB9CBCF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7FF50AB49A064D88F729CDA48649FA1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		977DD9B9C89495A5A944BAF735F7322C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6367501EBF456E54BB66EA951BAAA89 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3356807A4EA94DCC29757112C5C24B /* Frameworks */ = {
+		07C4432FD9E5DEB495C0F9A7768EB1E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD1AF2EE49567C6BBCC99A19B29F7FA /* Frameworks */ = {
+		7C5CA64C2C12F8B85D4CA69097DD06E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D235E5DE154E20C36F79C843B66D9BCD /* Foundation.framework in Frameworks */,
-				2EFAA470618D3AB8731E41BBDC0A0FB2 /* XCTest.framework in Frameworks */,
+				C3D029A6A8E4DC50EABCEC381EFACCE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1E7CE2D0402BB2BF790AAB8D4BF49C0 /* Frameworks */ = {
+		95824EC74754DFE3E485331EEBB1CA26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9764AA29142FC01A45FD0D0E9A29DF32 /* Foundation.framework in Frameworks */,
+				3710D7BCA1388DE6927FE106C34A5F46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81B52CC8BB60E45F82A3D96DE045C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30E35B6B03A4239C3CA15BEE16AE644 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0478BEEE521A190C09E86816117442AD /* Pod */ = {
+		3284D21EEA01EDFCD27DAA7BF4209953 /* Pods-SwiftSiriWaveformView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6A37A53A4876D9B5D72A1EF8DC56B1B7 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		0720760E6FAA87218C034E98CCD3509B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B02FCF5A121E3A443A100A5032F6348C /* SwiftSiriWaveformView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				953A71FA8D35472DE611F7814A1D4B12 /* Foundation.framework */,
-				AEF2A29097FDAE600C78FC8284EEAAAB /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4188CE16247EB50318EB786219AD5E88 /* Pods-SwiftSiriWaveformView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3A0D7C968BFA7756510D103F601E9836 /* Info.plist */,
-				3A832EE05AE2127F891BAC71136A8E55 /* Pods-SwiftSiriWaveformView_Example.modulemap */,
-				BD4BD2196573A4B8EBC2F316936A8FE8 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown */,
-				95A97D4C2F2B1B7E9E754271296FD870 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.plist */,
-				CBD72CE9591E23F6F5062F966B4432B8 /* Pods-SwiftSiriWaveformView_Example-dummy.m */,
-				7F9E422D66F1C4FE5EFBE68D23C07F7D /* Pods-SwiftSiriWaveformView_Example-frameworks.sh */,
-				95851394E99813E960F1F4C089A4F6FF /* Pods-SwiftSiriWaveformView_Example-resources.sh */,
-				10EABD4EDDE788A07B094254416D6463 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */,
-				98BBC64642E8E41D6571EDADDAD78800 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */,
-				FE8FCBD49DBC8E07A7EE526553903378 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */,
-			);
-			name = "Pods-SwiftSiriWaveformView_Example";
-			path = "Target Support Files/Pods-SwiftSiriWaveformView_Example";
-			sourceTree = "<group>";
-		};
-		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6A37A53A4876D9B5D72A1EF8DC56B1B7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0538D3BA85A00206B3770295ED066434 /* SwiftSiriWaveformView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6D81B0FAA8204F9FBB13B28E98EF4CB5 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				E30B60BAF75280424835629D9826D502 /* Core */,
-				957494196D76749E43871AAF106B6FF1 /* Support Files */,
-				9F4A98DBF2255F60AF333FC31B823F25 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		6DB463E30CB999B20D867F4F1BA6C6D2 /* Pods-SwiftSiriWaveformView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0CDD6338287454303285F192E7C7708B /* Info.plist */,
-				893898DF9703A8713376D8D549C969F5 /* Pods-SwiftSiriWaveformView_Tests.modulemap */,
-				947DA2E8A1B9BEE160EBA37F58DA3566 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown */,
-				E14500CA89523F8F18E9F7334B64572C /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist */,
-				499D0CEDED2553BC303B2514F535A9BD /* Pods-SwiftSiriWaveformView_Tests-dummy.m */,
-				B182787C7F1F8DF4F7CAD151CD781979 /* Pods-SwiftSiriWaveformView_Tests-frameworks.sh */,
-				9D9A96E1BDEE09FCB311D3E390FC7E5B /* Pods-SwiftSiriWaveformView_Tests-resources.sh */,
-				C5FFB18FB62D3F60BBF5C3690CFDA78F /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */,
-				DCACCE2906E22ACE4AD1A2A161FD5C54 /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */,
-				5782CC0E30ED9166B149D1898BB4F64F /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */,
+				03E54265A1C5283A8A9833A1C54759D6 /* Info.plist */,
+				162D139141752134DA806FAE010F39D5 /* Pods-SwiftSiriWaveformView_Tests.modulemap */,
+				076D70B6439D2322D39AFC561E836416 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.markdown */,
+				76851BAE0D445A48F9BFE5331E8F8D81 /* Pods-SwiftSiriWaveformView_Tests-acknowledgements.plist */,
+				DE215E5242800DF35C30C6C44C045259 /* Pods-SwiftSiriWaveformView_Tests-dummy.m */,
+				B0DD94F7A591AD9D9E7C1BA2297B5351 /* Pods-SwiftSiriWaveformView_Tests-frameworks.sh */,
+				4D2F1848566328977F848E005519363D /* Pods-SwiftSiriWaveformView_Tests-resources.sh */,
+				3FB21F0806102F8BA9B32087262BF65A /* Pods-SwiftSiriWaveformView_Tests-umbrella.h */,
+				D0B93B33ED5BEDA1019C2AE2B1896BAB /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */,
+				1441D98D2B6F93AC2C370F4DE99AD22B /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */,
 			);
 			name = "Pods-SwiftSiriWaveformView_Tests";
 			path = "Target Support Files/Pods-SwiftSiriWaveformView_Tests";
 			sourceTree = "<group>";
 		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B783BA73C5295AEC3FB3B382F6C44CE8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B49FCE232CE19D72AB096B26AF1CEFE /* Pods-SwiftSiriWaveformView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9FCB7C74847A72DD3D339552AA5EAE99 /* Info.plist */,
+				044AAE69315237B925C103DE02483F5F /* Pods-SwiftSiriWaveformView_Example.modulemap */,
+				B0F3F4A02878AEC39A30FD97F2C7DC7A /* Pods-SwiftSiriWaveformView_Example-acknowledgements.markdown */,
+				C796C0AC1C4CCA36604A8CB57D88ED06 /* Pods-SwiftSiriWaveformView_Example-acknowledgements.plist */,
+				6453D61ED85C149E49282E25FFCF0608 /* Pods-SwiftSiriWaveformView_Example-dummy.m */,
+				B988DA27BD35D7BD35FFE35A46490246 /* Pods-SwiftSiriWaveformView_Example-frameworks.sh */,
+				96C91651402A44DE9161C14DEFA909BF /* Pods-SwiftSiriWaveformView_Example-resources.sh */,
+				72BF27E29BCC00B5FDA7D7CFDBFC3327 /* Pods-SwiftSiriWaveformView_Example-umbrella.h */,
+				13B13453305C61255958B2C5385C0887 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */,
+				2B2D7628580C368A30E8FFD4B9CD13D9 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftSiriWaveformView_Example";
+			path = "Target Support Files/Pods-SwiftSiriWaveformView_Example";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
-				0720760E6FAA87218C034E98CCD3509B /* Development Pods */,
-				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
-				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B2EC59893B1CE00B3E0F2D73EF3F445B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */,
+				9A1F57A2C10D3E281F811FDCBF7CE1FD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		957494196D76749E43871AAF106B6FF1 /* Support Files */ = {
+		849DB5E67083672F358A5F31CD910B42 /* SwiftSiriWaveformView */ = {
 			isa = PBXGroup;
 			children = (
-				217EE35D54FF89308CFCD2C981F686E9 /* FBSnapshotTestCase.modulemap */,
-				2B1225F947E2C4809C79FAC7C14E1D75 /* FBSnapshotTestCase.xcconfig */,
-				C9D358A63F033E9471B6CEF869D2530F /* FBSnapshotTestCase-Private.xcconfig */,
-				D1072129D1CAC38505ED2DE7E74463B0 /* FBSnapshotTestCase-dummy.m */,
-				938F81E64FB1C5BC61994D4BB348C178 /* FBSnapshotTestCase-prefix.pch */,
-				C45AE6B2B51210D0A4A20D9AC84309BD /* FBSnapshotTestCase-umbrella.h */,
-				8A1A9A19B449F145CA2919816AD4B989 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		9F4A98DBF2255F60AF333FC31B823F25 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				6A0F99E3FAD407057D5C572987C95F6B /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		B02FCF5A121E3A443A100A5032F6348C /* SwiftSiriWaveformView */ = {
-			isa = PBXGroup;
-			children = (
-				0478BEEE521A190C09E86816117442AD /* Pod */,
-				E8C6A4229F00BEEC14D4345C4E68F94C /* Support Files */,
+				8AFDD3D4B057903D84796EDCF2D0CF6D /* Pod */,
+				FAF2D8885D53F55ABC0D6F4401AC0512 /* Support Files */,
 			);
 			name = SwiftSiriWaveformView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		8AFDD3D4B057903D84796EDCF2D0CF6D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3B744733D120DC2EFED9F5AF3D42BFE1 /* FBSnapshotTestCase.framework */,
-				BFBF3E12D70A6CE4F9CD3D9C20D2ACF9 /* Pods_SwiftSiriWaveformView_Example.framework */,
-				712ED622DB48D45C3E014BAFCEE6DCC4 /* Pods_SwiftSiriWaveformView_Tests.framework */,
-				B01D83E139AB203395824059968BD6DA /* SwiftSiriWaveformView.bundle */,
-				3759AD00A7142D0D75593C0C01A042E8 /* SwiftSiriWaveformView.framework */,
+				A9396B27FE86DCD3BFDB55EEA09A32DB /* Classes */,
 			);
-			name = Products;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */ = {
+		9A1F57A2C10D3E281F811FDCBF7CE1FD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4188CE16247EB50318EB786219AD5E88 /* Pods-SwiftSiriWaveformView_Example */,
-				6DB463E30CB999B20D867F4F1BA6C6D2 /* Pods-SwiftSiriWaveformView_Tests */,
+				6B49FCE232CE19D72AB096B26AF1CEFE /* Pods-SwiftSiriWaveformView_Example */,
+				3284D21EEA01EDFCD27DAA7BF4209953 /* Pods-SwiftSiriWaveformView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E30B60BAF75280424835629D9826D502 /* Core */ = {
+		A9396B27FE86DCD3BFDB55EEA09A32DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				023438422B320F559BF6BA4CC2132FE5 /* FBSnapshotTestCase.h */,
-				7AB144E7C528B90B9A9265D045E700D0 /* FBSnapshotTestCase.m */,
-				B6CDCB2C278D65C4D060E283646AF9F3 /* FBSnapshotTestCasePlatform.h */,
-				5CD26C2184DC027CC5FB7B714290985E /* FBSnapshotTestCasePlatform.m */,
-				73B04A8554C8D8758C6A41BC12AEC4D3 /* FBSnapshotTestController.h */,
-				367075E0B900694D91C5B2AFCEF64FFF /* FBSnapshotTestController.m */,
-				C8C5C817C7FB9A8C29BE7772504C9B81 /* UIImage+Compare.h */,
-				90D7A65D5BB6BCDF6B733A0450BF4DC4 /* UIImage+Compare.m */,
-				CEB98352340994214C60C6C4E89BA957 /* UIImage+Diff.h */,
-				C0807DD396CF3A8938346533DA240146 /* UIImage+Diff.m */,
-				AE1E97AAE8355AB76D4EB26B15212ABA /* UIImage+Snapshot.h */,
-				0B843A973859D64D126F17C59350051B /* UIImage+Snapshot.m */,
+				8B4F6D6E4272AC0DAE4E29FC16B24433 /* SwiftSiriWaveformView.swift */,
 			);
-			name = Core;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		E8C6A4229F00BEEC14D4345C4E68F94C /* Support Files */ = {
+		B2EC59893B1CE00B3E0F2D73EF3F445B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E64BC2B08CD49D599C7C69040348402 /* Info.plist */,
-				8D99E3806AED4D889B67199EA327307A /* SwiftSiriWaveformView.modulemap */,
-				4FE16019CEBA4F51350BBB677406F1E8 /* SwiftSiriWaveformView.xcconfig */,
-				E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */,
-				0921D859783CD972071D080A9B0DE5C6 /* SwiftSiriWaveformView-dummy.m */,
-				DDB5C23EB528AABD0B78E95FFF7D29ED /* SwiftSiriWaveformView-prefix.pch */,
-				9C44A8C8BAF1B7DCE109A624CD3A4D11 /* SwiftSiriWaveformView-umbrella.h */,
+				849DB5E67083672F358A5F31CD910B42 /* SwiftSiriWaveformView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B44584167845D519F213F28BA72068 /* Pods_SwiftSiriWaveformView_Example.framework */,
+				B59D51D7A496A596DEF7A471D66B51C8 /* Pods_SwiftSiriWaveformView_Tests.framework */,
+				245A6921683E1D5065C7D57EFA32D6EE /* SwiftSiriWaveformView.bundle */,
+				156C9933CD29CE37DD854644582548D2 /* SwiftSiriWaveformView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF2D8885D53F55ABC0D6F4401AC0512 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7550E25D691ACFA016FC286CA8AD0DA1 /* Info.plist */,
+				037EA2D39E6B5CD2F9C3760EE28ADFFD /* SwiftSiriWaveformView.modulemap */,
+				7E315C5D4E238F686E4EB157A765B09D /* SwiftSiriWaveformView.xcconfig */,
+				C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */,
+				85BDA43E216372BF4B5729D5E285F76A /* SwiftSiriWaveformView-dummy.m */,
+				A1065A72A97D05DACB090B2D7426421E /* SwiftSiriWaveformView-prefix.pch */,
+				7656D7D47BB50815BF885AAB02F515D1 /* SwiftSiriWaveformView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftSiriWaveformView";
 			sourceTree = "<group>";
 		};
-		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6D81B0FAA8204F9FBB13B28E98EF4CB5 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24369584B1C137983701C2AE89122D56 /* Headers */ = {
+		37A7D52437D0D461C849C0D67CF73B1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E29F79BFBDF38320CE7AFB618C7B31B /* Pods-SwiftSiriWaveformView_Tests-umbrella.h in Headers */,
+				43DC09872525C0EFA4FC87A86650CF67 /* Pods-SwiftSiriWaveformView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C9D9DFF7C58D891834CB056791463EF /* Headers */ = {
+		B3112E5200050200C0EA301A1FE5196E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8457B98FF0E6618D2322D0AF41F3E3 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				B68D98C624AED20839532374CA60FE87 /* FBSnapshotTestCase.h in Headers */,
-				34238081A490A86E956270588F481D8A /* FBSnapshotTestCasePlatform.h in Headers */,
-				22D5921C47A91D75BF5AD98FBF83E100 /* FBSnapshotTestController.h in Headers */,
-				931825D847AC2FC6478154D977A58764 /* UIImage+Compare.h in Headers */,
-				B673CCCC714B32EFE2A6488DBE5516A5 /* UIImage+Diff.h in Headers */,
-				813CB68A0F489F875700AC8964FE3AD1 /* UIImage+Snapshot.h in Headers */,
+				21168BE9FEDF036D6407634D29938805 /* SwiftSiriWaveformView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A5884076411C6078FB217540CC223DB /* Headers */ = {
+		CD497EE244A288CF46CED27AD3BAC0BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915FE3FADEF4A0DA14CE0EDA2A68D1E2 /* SwiftSiriWaveformView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE949F5CEBFB6AA6236B56913E6BD06A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E05374294A0424213A2160F6AFFF16F /* Pods-SwiftSiriWaveformView_Example-umbrella.h in Headers */,
+				1D34E7E122BBE21C469D3DAF46897D6F /* Pods-SwiftSiriWaveformView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31FD0A5E8CA130FA34DA34E480AE5592 /* SwiftSiriWaveformView-SwiftSiriWaveformView */ = {
+		91F3F10C8CEE28C77789DD990D8F70B8 /* Pods-SwiftSiriWaveformView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 996A7E4B69F152CDA5E6642CDB2EF73D /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView-SwiftSiriWaveformView" */;
+			buildConfigurationList = 58B42A0690315104A196C3B25DEEBD5C /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Example" */;
 			buildPhases = (
-				A61547879E043D685D1B104D54D79EF0 /* Sources */,
-				BA3356807A4EA94DCC29757112C5C24B /* Frameworks */,
-				890EA20D2A2B91478258189F2AB9BAE5 /* Resources */,
+				37971059F6BF80404BE3A576773CB683 /* Sources */,
+				95824EC74754DFE3E485331EEBB1CA26 /* Frameworks */,
+				37A7D52437D0D461C849C0D67CF73B1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3452065F985F359EFEE637C7E20467AA /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftSiriWaveformView_Example";
+			productName = "Pods-SwiftSiriWaveformView_Example";
+			productReference = B5B44584167845D519F213F28BA72068 /* Pods_SwiftSiriWaveformView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		928B35D1CFAB6D471E90AF0EF954752C /* Pods-SwiftSiriWaveformView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EEA5C16A3033569F7F9CBA3E851629 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Tests" */;
+			buildPhases = (
+				EA387A0038E9611BB15464E062F6D4AC /* Sources */,
+				D81B52CC8BB60E45F82A3D96DE045C80 /* Frameworks */,
+				CD497EE244A288CF46CED27AD3BAC0BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46FBAC77FDA0C2BD5E87C45317D3BF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftSiriWaveformView_Tests";
+			productName = "Pods-SwiftSiriWaveformView_Tests";
+			productReference = B59D51D7A496A596DEF7A471D66B51C8 /* Pods_SwiftSiriWaveformView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D97B88BB3045C24C56813A9976DAC2A1 /* SwiftSiriWaveformView-SwiftSiriWaveformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3688FE9441268FF7ECD152220434E5 /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView-SwiftSiriWaveformView" */;
+			buildPhases = (
+				69DE62241C3BBCAA9B936A901A1C6661 /* Sources */,
+				07C4432FD9E5DEB495C0F9A7768EB1E2 /* Frameworks */,
+				C529F7F6C0B9B553EA3F0BE63A145812 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -424,80 +328,26 @@
 			);
 			name = "SwiftSiriWaveformView-SwiftSiriWaveformView";
 			productName = "SwiftSiriWaveformView-SwiftSiriWaveformView";
-			productReference = B01D83E139AB203395824059968BD6DA /* SwiftSiriWaveformView.bundle */;
+			productReference = 245A6921683E1D5065C7D57EFA32D6EE /* SwiftSiriWaveformView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		631388B97ABB35B62D5F2028C0B61B75 /* Pods-SwiftSiriWaveformView_Tests */ = {
+		F3D0006B153713D03938105FFF0E0AAC /* SwiftSiriWaveformView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 615CBD224E8C9A9B9B7F6EB35246C555 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Tests" */;
+			buildConfigurationList = B4D75F53DFEB8FB19FEC62C2133BE77F /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */;
 			buildPhases = (
-				0ED04DC014F34490791F52E4D1520F93 /* Sources */,
-				977DD9B9C89495A5A944BAF735F7322C /* Frameworks */,
-				24369584B1C137983701C2AE89122D56 /* Headers */,
+				E1A4671A54359EE979B0B6D3C9A17691 /* Sources */,
+				7C5CA64C2C12F8B85D4CA69097DD06E9 /* Frameworks */,
+				87F255F2516D3C5F0424568B6DFB9CE5 /* Resources */,
+				B3112E5200050200C0EA301A1FE5196E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				86F67C578862231C28D8FC2044AAEC5C /* PBXTargetDependency */,
-				6EA2F3E4C206700F0CD0EDA1B9A2B1BE /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftSiriWaveformView_Tests";
-			productName = "Pods-SwiftSiriWaveformView_Tests";
-			productReference = 712ED622DB48D45C3E014BAFCEE6DCC4 /* Pods_SwiftSiriWaveformView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		83CA2367B9B8B2768D7023FC92162A9F /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0665E920F3A1F73B8B1FB9696218F7A /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				E8D21BC2E6F36EC27D1BAD4081B591AD /* Sources */,
-				CCD1AF2EE49567C6BBCC99A19B29F7FA /* Frameworks */,
-				3C9D9DFF7C58D891834CB056791463EF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 3B744733D120DC2EFED9F5AF3D42BFE1 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B0C5267E85089EAA3A12841247B0256F /* Pods-SwiftSiriWaveformView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C7606C610484DF241E44E83145D4CD50 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Example" */;
-			buildPhases = (
-				127AD255047706F9F9E534D97C80A8BB /* Sources */,
-				F1E7CE2D0402BB2BF790AAB8D4BF49C0 /* Frameworks */,
-				CE949F5CEBFB6AA6236B56913E6BD06A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7720DFFA0924ACAC4C95B48DEE6F7037 /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftSiriWaveformView_Example";
-			productName = "Pods-SwiftSiriWaveformView_Example";
-			productReference = BFBF3E12D70A6CE4F9CD3D9C20D2ACF9 /* Pods_SwiftSiriWaveformView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D74163E98788CF9361159F986A94E81C /* SwiftSiriWaveformView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF457213867C61B32E47CE8372A533D9 /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */;
-			buildPhases = (
-				2885DDC5ADC46AF0BEDCBD4AA770BC5B /* Sources */,
-				91282C4B1DA2B2B02ACC20ABAB9CBCF1 /* Frameworks */,
-				F086BB54E6D6A49E1366C9C7EE6D4FC2 /* Resources */,
-				7A5884076411C6078FB217540CC223DB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91ABA793434623DA634159A063490AA1 /* PBXTargetDependency */,
+				83EDC06A146BA4496965317B71FC4D1A /* PBXTargetDependency */,
 			);
 			name = SwiftSiriWaveformView;
 			productName = SwiftSiriWaveformView;
-			productReference = 3759AD00A7142D0D75593C0C01A042E8 /* SwiftSiriWaveformView.framework */;
+			productReference = 156C9933CD29CE37DD854644582548D2 /* SwiftSiriWaveformView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -521,114 +371,131 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83CA2367B9B8B2768D7023FC92162A9F /* FBSnapshotTestCase */,
-				B0C5267E85089EAA3A12841247B0256F /* Pods-SwiftSiriWaveformView_Example */,
-				631388B97ABB35B62D5F2028C0B61B75 /* Pods-SwiftSiriWaveformView_Tests */,
-				D74163E98788CF9361159F986A94E81C /* SwiftSiriWaveformView */,
-				31FD0A5E8CA130FA34DA34E480AE5592 /* SwiftSiriWaveformView-SwiftSiriWaveformView */,
+				91F3F10C8CEE28C77789DD990D8F70B8 /* Pods-SwiftSiriWaveformView_Example */,
+				928B35D1CFAB6D471E90AF0EF954752C /* Pods-SwiftSiriWaveformView_Tests */,
+				F3D0006B153713D03938105FFF0E0AAC /* SwiftSiriWaveformView */,
+				D97B88BB3045C24C56813A9976DAC2A1 /* SwiftSiriWaveformView-SwiftSiriWaveformView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		890EA20D2A2B91478258189F2AB9BAE5 /* Resources */ = {
+		87F255F2516D3C5F0424568B6DFB9CE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B522F8CB4C0866599862FBA073245015 /* SwiftSiriWaveformView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F086BB54E6D6A49E1366C9C7EE6D4FC2 /* Resources */ = {
+		C529F7F6C0B9B553EA3F0BE63A145812 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F141D846FC937A56E10B69E981470825 /* SwiftSiriWaveformView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ED04DC014F34490791F52E4D1520F93 /* Sources */ = {
+		37971059F6BF80404BE3A576773CB683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A14112E0323D66D8B443BB02CC14C2 /* Pods-SwiftSiriWaveformView_Tests-dummy.m in Sources */,
+				92EAC6A06C9163C904382D3B8B8D5CD4 /* Pods-SwiftSiriWaveformView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127AD255047706F9F9E534D97C80A8BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4C818CBB609A8055AEDF33094E8BA97 /* Pods-SwiftSiriWaveformView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2885DDC5ADC46AF0BEDCBD4AA770BC5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0DCD35DFF84EF53C204AF11EE81D1A3 /* SwiftSiriWaveformView.swift in Sources */,
-				75F67E1363775CAA1EE2B8765F594C7A /* SwiftSiriWaveformView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A61547879E043D685D1B104D54D79EF0 /* Sources */ = {
+		69DE62241C3BBCAA9B936A901A1C6661 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D21BC2E6F36EC27D1BAD4081B591AD /* Sources */ = {
+		E1A4671A54359EE979B0B6D3C9A17691 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16E7BF120F62193D0CC43DA97B2FC0A /* FBSnapshotTestCase-dummy.m in Sources */,
-				F2BD10911C3DAD403CA9DBA753B3DF69 /* FBSnapshotTestCase.m in Sources */,
-				3FCB1130B171B541746FF2B0CBB3ACE2 /* FBSnapshotTestCasePlatform.m in Sources */,
-				9D5269D846E37C5DED98A3733D1CE1FF /* FBSnapshotTestController.m in Sources */,
-				6C37F9BD1E3BDA1194DE5A59C211BC5B /* SwiftSupport.swift in Sources */,
-				AC00F2A29741854490CB72F87B815D2C /* UIImage+Compare.m in Sources */,
-				AD5F3CB09E4A4ED0761306AE3147E1CA /* UIImage+Diff.m in Sources */,
-				7B7DA75B0B3E042208314CF40693E1F3 /* UIImage+Snapshot.m in Sources */,
+				C158C61C761BCD3EC837F2300BA3C061 /* SwiftSiriWaveformView.swift in Sources */,
+				42B10F16681178A03456F7F9B8FD9FDA /* SwiftSiriWaveformView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA387A0038E9611BB15464E062F6D4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACA93BDC21843041E301C12752E2C54 /* Pods-SwiftSiriWaveformView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EA2F3E4C206700F0CD0EDA1B9A2B1BE /* PBXTargetDependency */ = {
+		3452065F985F359EFEE637C7E20467AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSiriWaveformView;
-			target = D74163E98788CF9361159F986A94E81C /* SwiftSiriWaveformView */;
-			targetProxy = 054D3D0A1F975603089BC28D50635271 /* PBXContainerItemProxy */;
+			target = F3D0006B153713D03938105FFF0E0AAC /* SwiftSiriWaveformView */;
+			targetProxy = 33D2F310264F0B17C59F24234DF88253 /* PBXContainerItemProxy */;
 		};
-		7720DFFA0924ACAC4C95B48DEE6F7037 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSiriWaveformView;
-			target = D74163E98788CF9361159F986A94E81C /* SwiftSiriWaveformView */;
-			targetProxy = 8E45C883CE857A5C49393AD2C91FA5D9 /* PBXContainerItemProxy */;
-		};
-		86F67C578862231C28D8FC2044AAEC5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 83CA2367B9B8B2768D7023FC92162A9F /* FBSnapshotTestCase */;
-			targetProxy = 6DE00BD0B8DB29747B8D026D957F1D5F /* PBXContainerItemProxy */;
-		};
-		91ABA793434623DA634159A063490AA1 /* PBXTargetDependency */ = {
+		83EDC06A146BA4496965317B71FC4D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftSiriWaveformView-SwiftSiriWaveformView";
-			target = 31FD0A5E8CA130FA34DA34E480AE5592 /* SwiftSiriWaveformView-SwiftSiriWaveformView */;
-			targetProxy = BB8AA08A9E0A636BD51F95704BF2B49B /* PBXContainerItemProxy */;
+			target = D97B88BB3045C24C56813A9976DAC2A1 /* SwiftSiriWaveformView-SwiftSiriWaveformView */;
+			targetProxy = AC0E8F3BFF1DE9E3223FE73D4269438D /* PBXContainerItemProxy */;
+		};
+		B46FBAC77FDA0C2BD5E87C45317D3BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSiriWaveformView;
+			target = F3D0006B153713D03938105FFF0E0AAC /* SwiftSiriWaveformView */;
+			targetProxy = 0DD0EA56214B340A9C875F49D6F6B792 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2082896A44CB1A1677915D2E98A239E6 /* Debug */ = {
+		00A8D1AD578FD15DC9240EC5796B474E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCACCE2906E22ACE4AD1A2A161FD5C54 /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */;
+			baseConfigurationReference = C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08293C209C63F22C2F248E55E7DA14AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SwiftSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0F0D1D93E3200F4D2D251212672C7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B13453305C61255958B2C5385C0887 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -637,16 +504,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Tests/Pods-SwiftSiriWaveformView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Pods-SwiftSiriWaveformView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Tests;
+				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -656,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		2E2FE3061BBF0178B73470F3A8AA31DF /* Release */ = {
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -690,91 +557,9 @@
 			};
 			name = Release;
 		};
-		48EAF33AFC78A967B4C2EB6224471B38 /* Release */ = {
+		2AD0BF0AFCD36B7593B8A15A801140D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9D358A63F033E9471B6CEF869D2530F /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59D3A4E1F58290FB8ED93584B0D1916B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9D358A63F033E9471B6CEF869D2530F /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59FA6DD7D367E2D5A74E5A27C375CEC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftSiriWaveformView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7DB2D6F56B7C1E57CCF7BFA82840206D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */;
+			baseConfigurationReference = C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = SwiftSiriWaveformView;
@@ -782,9 +567,9 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		8BD0950CC7213622BB48FEAFE5931E57 /* Debug */ = {
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -823,108 +608,9 @@
 			};
 			name = Debug;
 		};
-		B4AB8C5B176AEEA5EE38B0EB5F37A1A2 /* Debug */ = {
+		6A1297EC6E66EB09E849AADC3F96BD08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98BBC64642E8E41D6571EDADDAD78800 /* Pods-SwiftSiriWaveformView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Pods-SwiftSiriWaveformView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C7EE604F73F8808FE6327ADB6FC85D43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SwiftSiriWaveformView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D29C80237FAB14E3502A66F7CD843033 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10DA134C809CD76ABA9D5E2B1AD5F11 /* SwiftSiriWaveformView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftSiriWaveformView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DB5D8E0C683CF80E4D5A46F9D6E351CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8FCBD49DBC8E07A7EE526553903378 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Pods-SwiftSiriWaveformView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FE259FB3074E984876CCCA461F2C79BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5782CC0E30ED9166B149D1898BB4F64F /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */;
+			baseConfigurationReference = 1441D98D2B6F93AC2C370F4DE99AD22B /* Pods-SwiftSiriWaveformView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -951,59 +637,137 @@
 			};
 			name = Release;
 		};
+		86FC274F1F823DBFFC2F500C5D2A7551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33AAF06E74DF82E5A7561FF83C44F73 /* SwiftSiriWaveformView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DC9EC42084189392D7311B7D2A249A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2D7628580C368A30E8FFD4B9CD13D9 /* Pods-SwiftSiriWaveformView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Example/Pods-SwiftSiriWaveformView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEA725FDEBD54F3936E835269CA8A11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B93B33ED5BEDA1019C2AE2B1896BAB /* Pods-SwiftSiriWaveformView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSiriWaveformView_Tests/Pods-SwiftSiriWaveformView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SwiftSiriWaveformView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD0950CC7213622BB48FEAFE5931E57 /* Debug */,
-				2E2FE3061BBF0178B73470F3A8AA31DF /* Release */,
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		615CBD224E8C9A9B9B7F6EB35246C555 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Tests" */ = {
+		58B42A0690315104A196C3B25DEEBD5C /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2082896A44CB1A1677915D2E98A239E6 /* Debug */,
-				FE259FB3074E984876CCCA461F2C79BA /* Release */,
+				0F0D1D93E3200F4D2D251212672C7F59 /* Debug */,
+				9DC9EC42084189392D7311B7D2A249A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		996A7E4B69F152CDA5E6642CDB2EF73D /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView-SwiftSiriWaveformView" */ = {
+		7D3688FE9441268FF7ECD152220434E5 /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView-SwiftSiriWaveformView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DB2D6F56B7C1E57CCF7BFA82840206D /* Debug */,
-				C7EE604F73F8808FE6327ADB6FC85D43 /* Release */,
+				08293C209C63F22C2F248E55E7DA14AF /* Debug */,
+				2AD0BF0AFCD36B7593B8A15A801140D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF457213867C61B32E47CE8372A533D9 /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */ = {
+		B4D75F53DFEB8FB19FEC62C2133BE77F /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D29C80237FAB14E3502A66F7CD843033 /* Debug */,
-				59FA6DD7D367E2D5A74E5A27C375CEC8 /* Release */,
+				86FC274F1F823DBFFC2F500C5D2A7551 /* Debug */,
+				00A8D1AD578FD15DC9240EC5796B474E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7606C610484DF241E44E83145D4CD50 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Example" */ = {
+		C7EEA5C16A3033569F7F9CBA3E851629 /* Build configuration list for PBXNativeTarget "Pods-SwiftSiriWaveformView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4AB8C5B176AEEA5EE38B0EB5F37A1A2 /* Debug */,
-				DB5D8E0C683CF80E4D5A46F9D6E351CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0665E920F3A1F73B8B1FB9696218F7A /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59D3A4E1F58290FB8ED93584B0D1916B /* Debug */,
-				48EAF33AFC78A967B4C2EB6224471B38 /* Release */,
+				DEA725FDEBD54F3936E835269CA8A11D /* Debug */,
+				6A1297EC6E66EB09E849AADC3F96BD08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

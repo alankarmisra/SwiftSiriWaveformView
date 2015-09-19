@@ -1,13 +1,7 @@
 PODS:
-  - FBSnapshotTestCase (2.0.3):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
-  - FBSnapshotTestCase/Core (2.0.3)
-  - FBSnapshotTestCase/SwiftSupport (2.0.3):
-    - FBSnapshotTestCase/Core
   - SwiftSiriWaveformView (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - SwiftSiriWaveformView (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,7 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
-  SwiftSiriWaveformView: a7fcf7afcc6e4ca75915deb0cdf5ef21f7fc24bc
+  SwiftSiriWaveformView: 972a80c8e8f0284fcc8e36be9fced175c478cfdb
 
-COCOAPODS: 0.38.0.beta.2
+COCOAPODS: 0.38.2

@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
 
 ## Description
-SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7+. 
+SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 and iOS 8. 
 
 It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).
 
@@ -34,6 +34,7 @@ SwiftSiriWaveformView is available through [CocoaPods](http://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
+use_frameworks!
 pod "SwiftSiriWaveformView"
 ```
 
