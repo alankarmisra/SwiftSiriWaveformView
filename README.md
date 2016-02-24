@@ -1,4 +1,4 @@
-# SwiftSiriWaveformView (Swift 2.0 / XCode 7 compatible)
+# SwiftSiriWaveformView (Swift 2.0 / Xcode 7 compatible)
 
 [![CI Status](http://img.shields.io/travis/Alankar Misra/SwiftSiriWaveformView.svg?style=flat)](https://travis-ci.org/Alankar Misra/SwiftSiriWaveformView)
 [![Version](https://img.shields.io/cocoapods/v/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
