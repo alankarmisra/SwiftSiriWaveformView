@@ -9,21 +9,21 @@
 import UIKit
 import SwiftSiriWaveformView
 
-public class ViewController: UIViewController {
+open class ViewController: UIViewController {
     
-    var timer:NSTimer?
+    var timer:Timer?
     var change:CGFloat = 0.01
     
     @IBOutlet weak var audioView: SwiftSiriWaveformView!
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         self.audioView.density = 1.0
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.009, target: self, selector: "refreshAudioView:", userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.009, target: self, selector: #selector(ViewController.refreshAudioView(_:)), userInfo: nil, repeats: true)
     }
     
-    internal func refreshAudioView(_:NSTimer) {
+    internal func refreshAudioView(_:Timer) {
         if self.audioView.amplitude <= self.audioView.idleAmplitude || self.audioView.amplitude > 1.0 {
             self.change *= -1.0
         }

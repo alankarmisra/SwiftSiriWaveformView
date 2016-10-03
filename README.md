@@ -1,4 +1,4 @@
-# SwiftSiriWaveformView (Swift 2.0 / Xcode 7 compatible)
+# SwiftSiriWaveformView (Swift 3.0 / Xcode 8 compatible)
 
 [![CI Status](http://img.shields.io/travis/Alankar Misra/SwiftSiriWaveformView.svg?style=flat)](https://travis-ci.org/Alankar Misra/SwiftSiriWaveformView)
 [![Version](https://img.shields.io/cocoapods/v/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
@@ -11,6 +11,10 @@ SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect s
 It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).
 
 ![Sample](http://i.imgur.com/e1KoYRY.gif)
+
+## Version 2.0 | Swift 3.0 / XCode 8
+
+- Upgraded the Pod to Swift 3.0 syntax. The interface remains unchanged. 
 
 ## Usage 
 
@@ -31,7 +35,18 @@ audioView.amplitude = 1.0
 ## Installation (CocoaPods)
 
 SwiftSiriWaveformView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, simply add the following lines to your Podfile:
+
+### For Cocoapods >= 1.0 
+
+```ruby
+use_frameworks!
+target "YOUR_PROJECT_NAME" do
+    pod "SwiftSiriWaveformView"
+end
+```
+
+### For Cocoapods < 1.0
 
 ```ruby
 use_frameworks!
@@ -40,7 +55,6 @@ pod "SwiftSiriWaveformView"
 
 ## Installation (Manual)
 Copy Pod/Classes/SwiftSiriWaveFormView.swift into your project.
-
 
 ## Author
 

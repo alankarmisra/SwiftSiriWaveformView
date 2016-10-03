@@ -7,6 +7,5 @@ end
 
 target 'SwiftSiriWaveformView_Tests', :exclusive => true do
   pod "SwiftSiriWaveformView", :path => "../"
-
-  
 end
+
