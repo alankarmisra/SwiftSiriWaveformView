@@ -73,6 +73,10 @@ open class SwiftSiriWaveformView : UIView {
     
     fileprivate var phase:CGFloat = 0.0
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
