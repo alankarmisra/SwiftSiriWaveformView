@@ -12,6 +12,10 @@ It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/
 
 ![Sample](http://i.imgur.com/e1KoYRY.gif)
 
+## Version 2.1 | Swift 3.0 / XCode 8
+
+- Added initializers to programmatically create the view.
+
 ## Version 2.0 | Swift 3.0 / XCode 8
 
 - Upgraded the Pod to Swift 3.0 syntax. The interface remains unchanged. 
