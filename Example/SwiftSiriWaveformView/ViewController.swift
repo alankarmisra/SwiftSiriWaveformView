@@ -23,7 +23,7 @@ open class ViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.009, target: self, selector: #selector(ViewController.refreshAudioView(_:)), userInfo: nil, repeats: true)
     }
     
-    internal func refreshAudioView(_:Timer) {
+    @objc internal func refreshAudioView(_:Timer) {
         if self.audioView.amplitude <= self.audioView.idleAmplitude || self.audioView.amplitude > 1.0 {
             self.change *= -1.0
         }
