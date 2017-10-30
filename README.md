@@ -1,6 +1,5 @@
-# SwiftSiriWaveformView (Swift 3.0 / Xcode 8 compatible)
+# SwiftSiriWaveformView (Swift 4.0 / Xcode 9 compatible)
 
-[![CI Status](http://img.shields.io/travis/Alankar Misra/SwiftSiriWaveformView.svg?style=flat)](https://travis-ci.org/Alankar Misra/SwiftSiriWaveformView)
 [![Version](https://img.shields.io/cocoapods/v/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
 [![License](https://img.shields.io/cocoapods/l/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftSiriWaveformView.svg?style=flat)](http://cocoapods.org/pods/SwiftSiriWaveformView)
@@ -11,6 +10,9 @@ SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect s
 It is a Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).
 
 ![Sample](http://i.imgur.com/e1KoYRY.gif)
+
+## Version 2.4 | Swift 4.0 / XCode 9
+- Upgraded the Pod to Swift 4.0 syntax. The interface remains unchanged. 
 
 ## Version 2.1 | Swift 3.0 / XCode 8
 
