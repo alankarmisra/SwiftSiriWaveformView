@@ -92,16 +92,13 @@ open class SwiftSiriWaveformView : UIView {
             for x in Swift.stride(from:0, to:self.bounds.width + self.density, by:self.density) {
                 // Parabolic scaling
                 let scaling = -pow(1 / mid * (x - mid), 2) + 1
-                let y = scaling * maxAmplitude * normedAmplitude * sin(CGFloat(2 * M_PI) * self.frequency * (x / self.bounds.width)  + self.phase) + self.bounds.height/2.0
+                let y = scaling * maxAmplitude * normedAmplitude * sin(CGFloat(2 * Double.pi) * self.frequency * (x / self.bounds.width)  + self.phase) + self.bounds.height/2.0
                 if x == 0 {
                     path.move(to: CGPoint(x:x, y:y))
                 } else {
                     path.addLine(to: CGPoint(x:x, y:y))
                 }
             }
-//            for var x:CGFloat = 0; x < (self.bounds.width + self.density); x += self.density {
-//                
-//            }
             path.stroke()
         }
         
